@@ -39,17 +39,18 @@ public class Phone {
     //생성자 오버로딩
     //갯수에 제한이 ㅇ없긴하지만 없더라도 제한이 있다
     //구분 <>> 매개변수의 성ㄴ
-    Phone(String pMode){
+    Phone(String model){
         System.out.println("2번생성자 호출");
-        model = pMode;
-        color = "화이트";
-        price = 1000000;
+        this.model = model;
+        this.color = "화이트";
+        this.price = 1000000;
     }
-    Phone(String pModel,String pColor){
+    Phone(String model,String color){
         System.out.println("3번 생성자 호출");
-        model = pModel;
-        color = pColor;
-        price = 1200000;
+        //생성된 그객체<< this
+        this.model = model;
+        this.color = color;
+        this.price = 1200000;
     }
 
 
