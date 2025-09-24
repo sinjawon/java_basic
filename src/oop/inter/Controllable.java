@@ -1,9 +1,11 @@
 package oop.inter;
 
 
+import java.awt.*;
+
 //조종 가능한 자격증
 //이 자격증을 따려면 아래에 명시한 모든 기능을 반드시 만들어야한다
-public interface Controllable {
+public interface Controllable  {
 
     //인터페이스 변수 선언하면 상수로 인식한다 (static final로)
        int num = 5;
