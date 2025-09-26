@@ -19,7 +19,7 @@ public enum Language {
                  3. 관련있는 상수들끼리 모아놓기 때문에 구현의 의도를 명확하게 파악 가능.
             */
 
-
+                                                                                                                                                                                                                                                                                                                            
 
     //상수와 연관시킬 데이터를 담을 필드르 선언
     private final String name;
